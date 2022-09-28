@@ -6,6 +6,13 @@ html{
 	scroll-margin-top: 56px;
   }
 
+#Grupo img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
 /*Nav-bar*/
 .navbar-brand{
 	font-family: 'EB Garamond', serif;
