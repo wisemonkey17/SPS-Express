@@ -8,6 +8,16 @@ html{
 	font-family: 'EB Garamond', serif;
 }
 
+.navbar-brand img {
+	height: 28px;
+
+}
+
+img.main-logo {
+	height: 250px;
+	padding-bottom: 50px;
+}
+
 .nav-item, .dropdown-item{
 	font-family: 'Montserrat', sans-serif;
 }
