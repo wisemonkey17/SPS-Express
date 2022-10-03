@@ -343,7 +343,7 @@ iframe{
 footer{
 	position: relative;
 	width: 100%;
-	background: rgb(33, 37, 41); /* Color de bootstrap .bg-dark*/
+	background: rgb(33, 37, 41); /* Color de bootstrap .bg-dark */
 	min-height: 70px;
 	padding: 0px 50px;
 	display: flex;
