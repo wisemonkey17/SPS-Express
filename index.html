@@ -29,19 +29,19 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Inicio</a>
+              <a class="nav-link js-scroll-trigger" aria-current="page" href="#carouselExampleCaptions">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Historia">Sobre Nosotros</a>
+              <a class="nav-link js-scroll-trigger" href="#Historia">Sobre Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Personal">Personal Operativo</a>
+              <a class="nav-link js-scroll-trigger" href="#Personal">Personal Operativo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Clientes">Clientes</a>
+              <a class="nav-link js-scroll-trigger" href="#Clientes">Clientes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Ubicacion">Ubicación</a>
+              <a class="nav-link js-scroll-trigger" href="#Ubicacion">Contacto</a>
             </li>
           </ul>
         </div>
@@ -60,7 +60,7 @@
         <div class="carousel-item active">
           <video class="video-fluid h-100 w-100" autoplay loop muted><source src="D:\SPS Express\Fotos prueba\camion-cargado.mp4" type="video/mp4"></video>
           <div class="carousel-caption d-none d-sm d-sm-block">
-              <img class="main-logo" src="Fotos prueba\SPS_logo_original_vectorizado.png" alt="">
+              <img class="main-logo" src="Fotos prueba\SPS_logo_original_recolor.png" alt="">
             <p>Brindamos servicios de transporte de cargas generales, logística, distribución y almacenaje de mercaderías. Orientada a la plena satisfacción de nuestros clientes, gracias a la idoneidad y profesionalismo de cada uno de nuestros integrantes.</p>
           </div>
         </div>
@@ -159,6 +159,29 @@
             </div>
           </div>
         </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+              Destinos
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body">
+              <ul>
+                <li>Transporte de Cargas Generales y Peligrosas para Rosario - Buenos Aires</li>
+                <li>Distribución y Logística para las siguientes zonas:</li>
+                <ul>
+                  <li> <strong>Zona 1:</strong> V.G. Galvez - Alvear - Gral. Lagos - Pueblo Esther - Arroyo Seco - Fighiera - Empalme Villa Constitución - Villa Constitución - San Nicolas - Ramallo</li>
+                  <li><strong>Zona 2:</strong> Funes - Roldan - San Jerónimo - Carcaraña - Cañada de Gomez - Las Parejas - Las Rosas - San Genaro - Centeno - Totoras</li>
+                  <li><strong>Zona 3:</strong> Perez - Zaballa - Pujato - Casilda - Sanford - Chabas - Villata - Firmat - Murphy - Venado Tuerto</li>
+                  <li><strong>Zona 4: </strong> Gro. Baigorria - Cap. Bermudez - San Lorenzo - Gral. San Martin</li>
+                  <li><strong>Zona 5:</strong> Rafaela - Esperanza - San Justo - Santa Fe</li>
+                  <li><strong>Otras Localidades:</strong> Acebal - Alcorta</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -224,28 +247,30 @@
 
     <!--Maps-->
     <div class="container-fluid ubicacion">
-      <h1 class="text-center" id="Ubicacion">Ubicación</h1>
+      <h1 class="text-center" id="Ubicacion">Contacto</h1>
         <div class="row">
             <div class="col-md-6">
-              <h1>Rosario</h1>
+              <h2>Rosario</h2>   
+              <h4>Telefono:</h4> 
+              <p>(0341) 466-6926</p> 
+              <h4>Mail:</h4>
+              <p>spsexpress@ciudad.com.ar</p>
               <h3 class="text-center">Oficina y Depósito</h3>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1673.2330544430445!2d-60.64529909921705!3d-32.991484799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abc418530c85%3A0xd5be14d0d7d5aae8!2sBonpland%20761%2C%20S2001%20CKA%2C%20Santa%20Fe!5e0!3m2!1sen!2sar!4v1661413836747!5m2!1sen!2sar" style="border:none;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col-md-6">
-              <h1>C.A.B.A</h1>
+              <h2>C.A.B.A</h2>
+              <h4>Telefono:</h4> 
+              <p>(011) 4361-1705</p>
+              <h4>Mail:</h4>
+              <p>mail de Bs As</p>
               <h3 class="text-center">Recepción y Depósito</h3>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4642.4855306332!2d-58.35807394995428!3d-34.63618698623469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b9b2488a6f%3A0x2171ea7e514d0aaf!2sNecochea%201030%2C%20C1158ACP%20CABA!5e0!3m2!1sen!2sar!4v1661457802021!5m2!1sen!2sar" style="border:none;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>  
     </div>
 
-    <footer class="footer">
-      <ul class="social-icon">
-        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-        <li><a href="#"><ion-icon name="call-outline"></ion-icon></a></li>
-      </ul>
+    <footer class="container-fluid">
       <p>© 2022 Oviedo Ignacio | Todos los Derechos Reservados</p>
    </footer>
       
@@ -287,6 +312,11 @@
     });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  
+    <script type="text/javascript">  /* funcion para colapsar navbar-nav en responsive despues de hacer click*/  
+      $('.js-scroll-trigger').click(function() {
+        $('.navbar-collapse').collapse('hide');
+      });
+ </script>
+
   </body>
 </html>
